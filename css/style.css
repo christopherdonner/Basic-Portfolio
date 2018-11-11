@@ -1,60 +1,65 @@
-h1 {
-    float: top;
-    padding-right: 50;
-    padding-left: 50;
-    margin: 50px;
+#yourName {
+    position: fixed;
+    left: 25%;
+    font-size: 36px;
+    width: 200px;
+    height: 50px;
+    top: 0;
+    background: teal;
     text-align: center;
     color: white;
-    background-color: teal;
-    width: 100;
-    margin: 0 auto;
-    height: 50;
-    top: 0;
 }
 
-body {
-    background-color: #efeee7;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #333333;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color:white;
-    margin: 100;
-}
-/*
-h1 {
-    color: #eee;
-    font-size: 28px
-}
-*/
-h2 {
+#links {
+    font-family: Arial, Helvetica, sans-serif
     font-size: 24px;
 }
-.container {
-    text-align: left;
-    margin: 50px;
-    margin: 0 auto;
-}
 
-#main-bio {
-    float: left
-}
-
-#contact-info {
+#Contact {
     float: right;
-    top: 0;
-    margin-right: 50px;
-    margin-top: 0;
+    padding: 20px;
+    right: 50;
 }
 
-#bio-image {
-    float: left
+
+
+#Portfolio {
+    padding: 20px;
+    float: right;
 }
 
-#links{
-     float: left;
-     align-items: right;
+#About {
+    float: right;
+    padding: 20px;
+}
+
+#content {
+    width: 500px;
+    margin: auto 0 auto 0;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+#main {
+    position: relative;
+    background: gray;
+    padding: 100px;
+    top: 50px;
+    width: 100%;
+    height: 500px;
+    right: 200px;
+    left: 0;
+}
+
+
+#AboutMe {
+    position: absolute;
+    padding: 100px;
+    left: 20%;
+    top: 10px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: white;
 }
