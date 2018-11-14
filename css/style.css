@@ -123,9 +123,9 @@ footer {
  {
     /*position: absolute;*/
     padding: 5px;
-    border-style: solid;
+    /*border-style: solid;
     border-width: 2px;
-    border-color: #8583833f;
+    border-color: #8583833f;*/
     right: 20px;
     top: 20px;
     width: 800px;
@@ -148,9 +148,6 @@ footer {
 }
 */
 
-#message {
-    height: 200px;
-}
 
 #picture {
     float: left;
