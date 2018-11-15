@@ -186,11 +186,17 @@ input {
 #gummybears,
 #gudetama,
 #strangerthings,
-#sailormoon {
+#sailormoon,
+#simpsons,
+#scooby,
+#wildthings,
+#mylilpony
+
+{
     float: left;
     position: relative;
     top: 10px;
-    margin: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
     padding: 1px;
     text-align: center;
 }
@@ -200,13 +206,13 @@ input {
 }
 
 #gummybears {
-    width: 250px;
-    left: 10px;
+    width: 270px;
+    left: 0px;
 }
 
 #gudetama {
-    width: 250px;
-    left: 35px;
+    width: 245x;
+    left: -2px;
 }
 
 
